@@ -21,7 +21,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:316px;
+  width:314px;
   height:39px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -39,7 +39,7 @@
   position:absolute;
   left:40px;
   top:60px;
-  width:316px;
+  width:314px;
   height:39px;
   display:flex;
   font-family:"Montserrat Bold", "Montserrat", sans-serif;
@@ -103,7 +103,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:"Montserrat-Regular", "Montserrat", sans-serif;
+  font-family:"Montserrat", sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:15px;
@@ -117,7 +117,7 @@
   width:427px;
   height:450px;
   display:flex;
-  font-family:"Montserrat-Regular", "Montserrat", sans-serif;
+  font-family:"Montserrat", sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:15px;
@@ -140,8 +140,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:167px;
-  height:21px;
+  width:182px;
+  height:22px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -149,7 +149,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:"Arial-BoldMT", "Arial Bold", "Arial", sans-serif;
+  font-family:"Montserrat Bold", "Montserrat", sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -158,10 +158,10 @@
   position:absolute;
   left:305px;
   top:167px;
-  width:167px;
-  height:21px;
+  width:182px;
+  height:22px;
   display:flex;
-  font-family:"Arial-BoldMT", "Arial Bold", "Arial", sans-serif;
+  font-family:"Montserrat Bold", "Montserrat", sans-serif;
   font-weight:700;
   font-style:normal;
 }
@@ -176,4 +176,137 @@
   border-width:0px;
   white-space:nowrap;
   text-transform:none;
+}
+#u20_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:248px;
+  height:19px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Montserrat SemiBold", "Montserrat", sans-serif;
+  font-weight:600;
+  font-style:normal;
+  font-size:15px;
+}
+#u20 {
+  border-width:0px;
+  position:absolute;
+  left:357px;
+  top:711px;
+  width:248px;
+  height:19px;
+  display:flex;
+  font-family:"Montserrat SemiBold", "Montserrat", sans-serif;
+  font-weight:600;
+  font-style:normal;
+  font-size:15px;
+}
+#u20 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u20_div.mouseOver {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:248px;
+  height:19px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Montserrat SemiBold", "Montserrat", sans-serif;
+  font-weight:600;
+  font-style:normal;
+  font-size:15px;
+}
+#u20.mouseOver {
+}
+#u20_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u21_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:34px;
+  height:30px;
+}
+#u21 {
+  border-width:0px;
+  position:absolute;
+  left:305px;
+  top:706px;
+  width:34px;
+  height:30px;
+  display:flex;
+  color:#942F36;
+}
+#u21 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u21_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u22_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:58px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u22 {
+  border-width:0px;
+  position:absolute;
+  left:305px;
+  top:769px;
+  width:300px;
+  height:58px;
+  display:flex;
+}
+#u22 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u22_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
 }
