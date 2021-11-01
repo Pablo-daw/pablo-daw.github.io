@@ -1,0 +1,56 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.primario{
+  background-color: #216a93 !important;
+}
+
+.primario-text{
+  color: #216a93 !important;
+}
+
+.secundario{
+  background-color: #942f36 !important;
+}
+
+.secundario-text{
+  color: #942f36 !important;
+}
+
+.logotipo{
+  width: 55px; 
+  margin-top: 5px;
+}
+
+.formacion-img{
+  height: 150px;
+  align-items: center;
+}
+
+.experiencia-img{
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  align-items: center;
+}
+
+.contacta-img{
+  height: 250px;
+  align-items: center;
+}
+
+label{
+  font-size: 15px;
+}
