@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>CSS Float</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Para que funcione las media query --> 
+        <!--- Añadir colores primarios y secundarios --->
+        <style>
+            * {
+                box-sizing: border-box; /* Para que los float coja los tamaño de la caja, y no cuente con los paddings */
+            }
+            body {
+                background-color: #afafaf;
+            }
+            
+            header {
+                background-color: rgb(230, 82, 193);
+                height: 75px;
+            }
+
+            section {
+                background-color: rgb(230, 82, 114);
+            }
+
+            section::after { /* Para que el contenido se quede debajo del float despues de cargar section*/
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            nav {
+                background-color: rgb(82, 230, 114);
+                float: left;
+                width: 30%;
+                height: 600px;
+                padding: 10px;
+
+            }
+
+            nav li{
+                list-style: none;
+                float: left;
+                margin: 5px;
+                background-color: rgb(221, 125, 146);
+            }
+
+            li a:hover {
+                background-color: rgb(230, 82, 114);
+            }
+
+            article {
+                background-color: rgb(208, 230, 82);
+                float: left;
+                width: 35%;
+                height: 600px;
+                padding: 10px;
+            }
+
+            aside {
+                background-color: rgb(82, 213, 230);
+            }
+
+            footer {
+                background-color: rgb(57, 59, 190);
+                clear: both; /* Para que se limpie el float */
+            }
+            .flotar{
+                float: left;
+                padding-right: 20px;
+            }
+
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+                
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="flotar">
+                <h2>Elemento 1 del Header</h2>
+            </div>
+            <div class="flotar">
+                <h2>Elemento 2 del Header</h2>
+            </div>
+        </header>
+        <section>
+            <nav>
+                <h1>Menu</h1> 
+                <ul>
+                    <li><a href="#">London</a></li>
+                    <li><a href="#">Paris</a></li>
+                    <li><a href="#">Tokyo</a></li>
+                </ul>
+            </nav>
+
+            <article>
+                <h1>Article</h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </article>
+            <article>
+                <h1>Article</h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </article>
+        </section>
+
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+
+    </body>
+</html>
