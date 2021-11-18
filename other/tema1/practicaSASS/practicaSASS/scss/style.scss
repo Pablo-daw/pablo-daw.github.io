@@ -1,0 +1,25 @@
+// Variables globales SASS
+@import "color";
+@import "fonts";
+
+
+/* Cambios en el HTML*/
+
+body{
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $color-primary;
+    background-color: $color-background;
+}
+
+h1{
+    font-size: $font-size-h1;
+    color: $color-primary-dark;
+    margin-bottom: 20px;
+}
+
+.parrafo{
+    font-size: 1.2rem;
+    color: $color-secondary;
+    margin-bottom: 20px;
+}

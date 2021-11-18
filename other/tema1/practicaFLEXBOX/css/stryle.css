@@ -1,0 +1,93 @@
+body{
+    background-color:#444;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0; /* para quitar el padding por defecto que puede poner el navegador */
+    margin: 0;  /* para quitar el margin por defecto que puede poner el navegador */
+    line-height: 1.5rem; /* Medidas de tamaño relativas  em -> relativa a las furntes del contenedor que lo alberga | rem -> relativo al HTML(tamaño por defecto 16px) */
+}
+
+
+.container{
+    width: 100%; /* para que el contenedor ocupe el ancho del navegador */
+    max-width: 1200px; /* para que el contenedor ocupe el ancho máximo del navegador */
+    margin: 0 auto; /* para que el contenedor se alinee al centro del navegador 0 -> arriba y abajo | auto -> derecha e izquierda*/
+}
+
+header{
+    background-color: rgb(29, 87, 211);
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between; /* son para etiquetas flex para que los elementos se alineen en horizontalmente, space-between Esto sirve para que los elementos (imagen y lista de enlaces) se coloquen a los extremos, con espacio entre ellos.*/
+    align-items: center; /* son para etiquetas flex para que los elementos se alineen en verticalmente */
+}
+
+header img{
+    background-color: rgb(44, 114, 87);
+    height: 50px;
+}   
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end; /* son para etiquetas flex para que los elementos se alineen en horizontalmente, space-between para que se coloque cada una en un lado*/
+    background-color: rgb(78, 86, 102);
+}
+
+nav ul li{  
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #fff;
+
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);    
+}
+
+nav ul li a:hover{
+    background-color: saddlebrown;
+    color: rgb(188, 170, 255);    
+}
+
+main{
+    display: flex;
+    flex-direction: row; /* establece la dirección de los elementos en el contenedor principal */
+    justify-content: flex-start; /* comienza a alinear desde el principio */
+    align-items: stretch; /*Este atributo hace que los elementos ocupen toda la altura disponible en el contenedor Flexbox, de modo que, los hipotéticos fondos de color de las columnas del cuerpo principal se expandan para ocupar todo el espacio de la columna. */
+}
+
+section{
+    flex-grow: 1; /* Este atributo hace que este elemento ocupe todo el espacio sobrante de la distribución de espacios en las columnas. Esto es interesante porque tendremos dos columnas en el diseño. El aside tiene siempre un ancho fijo y la columna del contenido principal querremos que ocupe todo el espacio restante. */
+    margin-right: 1rem;
+    padding: 1.2rem;
+}
+
+.principal{
+    flex: 2;
+    background-color: rgb(104, 29, 155);
+}
+
+.lateral{
+    background-color: rgb(17, 47, 110);
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 1.5rem;
+    margin: 0;
+}
+
+article{
+    /*padding: 20px;*/
+    color: #fff;
+}
+
+footer{
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+}
+footer ul{
+    list-style: none;
+}
