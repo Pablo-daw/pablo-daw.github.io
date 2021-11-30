@@ -1,0 +1,1010 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jewelry store\n"
+"POT-Creation-Date: 2021-07-17 13:23+0530\n"
+"PO-Revision-Date: 2021-07-17 13:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;__ngettext:1,2;_n:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\jewelry-store\\wp-content\\themes"
+"\\jewelry-store\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\jewelry-store\\wp-content\\themes"
+"\\jewelry-store\n"
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/404.php:9
+msgid "404"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/404.php:10
+msgid "Oops! Page not found"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/404.php:11
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/404.php:12
+msgid "Home Page"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/comments.php:20
+msgctxt "comments title"
+msgid "One comment"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/footer.php:147
+msgid "Back To Top"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/functions.php:22
+msgid "Primary Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/functions.php:23
+msgid "Footer Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/functions.php:64
+msgid "Britetechs Companion"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/functions.php:66
+msgid ""
+"We highly recommend that you install the britetechs companion plugin to gain "
+"access to the team and testimonial sections."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/functions.php:69
+msgid "Contact Form 7"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/functions.php:71
+msgid ""
+"This is also recommended that you install the contact form plugin to show "
+"contact form on Contact Page contact section and Contact custom page "
+"template."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/functions.php:122
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/functions.php:123
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/header.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/searchform.php:9
+msgid "Search for:"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/searchform.php:12
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer.php:819
+msgid "Search"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:8
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:14
+msgid "1"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:12
+msgid "Home"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:35
+msgid "Archive by category"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:39
+msgid "Search results for "
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:145
+msgid "Posts tagged "
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:151
+msgid "Article posted by "
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:155
+msgid "Error 404 "
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/breadcrumbs.php:162
+msgid "Page"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:41
+msgid "Get Support"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:42
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:43
+msgid "Love it"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:219
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:328
+msgid "Item"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:444
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:466
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:478
+msgid "Remove"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:445
+msgid "Add"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:445
+msgid "Change"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:480
+msgid "Close"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-controls.php:518
+msgid "All"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-section-manager.php:7
+msgid "Go Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-section-manager.php:8
+msgid "Click Here"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-section-manager.php:16
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:16
+msgid "Typography"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:20
+msgid "General Content"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:31
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:50
+msgid "Font Size (px)"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:39
+msgid "Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:58
+msgid "Heading"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:69
+msgid "Heading h1 (px)"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:82
+msgid "Heading h2 (px)"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:95
+msgid "Heading h3 (px)"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:108
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:121
+msgid "Heading h5 (px)"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:134
+msgid "Heading h6 (px)"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:142
+msgid "Section"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:159
+msgid "Title Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:161
+msgid "Please select layout for sections."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:163
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:305
+msgid "Layout 1"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:174
+msgid "Title font size (px)"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-typography.php:187
+msgid "Subtitle font size (px)"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer.php:823
+msgid "Font Awesome"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/extra.php:67
+msgid "Read More"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sanitize.php:253
+#, php-format
+msgid "Upgrade to %1s to unlock this feature."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sidebars.php:5
+msgid "Primary Sidebar"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sidebars.php:15
+msgid "Default Page Sidebar"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sidebars.php:26
+#, php-format
+msgid "Footer %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sidebars.php:37
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/template-tags.php:422
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/woocommerce/functions.php:6
+#, php-format
+msgid "<span class=\"cart-value\">%d</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/theme_navwalker.php:144
+msgid "Add a menu"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:33
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome "
+"page</a>"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:42
+#, php-format
+msgid ""
+"Save time by import our demo data, your website will be set up and ready to "
+"customize in minutes. %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:42
+msgid "Import Demo Data"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:84
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/class-install-helper.php:107
+msgid "Activating "
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:102
+#, php-format
+msgid "%1$s action required"
+msgid_plural "%1$s actions required"
+msgstr[0] ""
+msgstr[1] ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:106
+#, php-format
+msgid "Jewelry Store %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:110
+msgid "Jewelry Store Theme"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:114
+msgid "Jewelry Store Dashboard"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:157
+#, php-format
+msgid "Welcome to Jewelry Store Pro - Version %1s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:161
+msgid ""
+"Jewelry Store is a clean and eCommerce multipurpose wordpress theme for all "
+"type business and shops."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:164
+msgid "Britetechs"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:170
+msgid "Jewelry Store"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:172
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/customizer_recommended_plugin.php:11
+msgid "Recommended Actions"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:175
+msgid "One Click Demo Import"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:184
+msgid "Customizer Option Panel Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:185
+#, php-format
+msgid ""
+"%s supports the Theme Customizer option panel settings. Click on below "
+"customize button to customize your theme."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:187
+msgid "Customize Your Theme"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:191
+msgid "Documentation"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:192
+#, php-format
+msgid ""
+"Need to setup your %s WordPress theme? Please click on bottom button  to "
+"find the theme documentation."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:194
+msgid "Jewelry Store Theme Documentation"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:199
+msgid "Need Support?"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:200
+#, php-format
+msgid ""
+"If you have more queries with %s WordPress theme. Please click below link to "
+"create a ticket"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:202
+msgid "Create a ticket"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:237
+msgid "Recommend Plugins"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:247
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:266
+msgid "Dismiss"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:254
+msgid "Switch \"Front page displays\" to \"A static page\""
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:256
+msgid ""
+"In order to have the one page look for your website, please go to Customize -"
+"&gt; Static Front Page and switch \"Front page displays\" to \"A static page"
+"\"."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:259
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:283
+msgid "Setup front page displays"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:273
+msgid "Set your homepage page template to \"Frontpage\"."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:276
+msgid ""
+"In order to change homepage section contents, you will need to set template "
+"\"Frontpage\" for your homepage."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:290
+msgid "Change homepage page template"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:300
+#, php-format
+msgid "Keep %s updated"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:302
+msgid "Hey! There are no required actions found."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:316
+#, php-format
+msgid ""
+"<p>Congratulations! you installed importer plugin successfully. Click Here "
+"to start <a href=\"%s\">Import Data</a></p>"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:325
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:487
+msgid "Install Now"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:347
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:509
+msgid "Active Now"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:364
+#, php-format
+msgid "%1$s you will need to install and activate the %2$s plugin first."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:365
+msgid "Hey."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:366
+msgid "Theme Demo Importer"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/about-screen/welcome-screen.php:529
+msgid "Details"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/customizer-notify/jewelry-store-customizer-notify.php:110
+msgid "Activating"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/class-install-helper.php:51
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/class-install-helper.php:71
+#, php-format
+msgid "Install %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/class-install-helper.php:51
+msgid "Install and activate"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/class-install-helper.php:71
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/customizer_recommended_plugin.php:14
+msgid "Activate"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/customizer_recommended_plugin.php:12
+msgid "Recommended Plugin"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/customizer_recommended_plugin.php:13
+msgid "Install and Activate"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/install/customizer_recommended_plugin.php:15
+msgid "Deactivate"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:13
+msgid "Theme Options"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:21
+msgid "Header Top Bar"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:38
+msgid "Enable Header Top Bar?"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:56
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:192
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:322
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:454
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:502
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:164
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:80
+msgid "Container Width"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:60
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:196
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:326
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:458
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:506
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:168
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:84
+msgid "Container"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:61
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:197
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:327
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:459
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:507
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:169
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:85
+msgid "Container Full"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:78
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:250
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:301
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:402
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:533
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:646
+msgid "Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:82
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:537
+msgid "--Select Layout--"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:83
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:538
+msgid "Layout 1 ( Light )"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:84
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:539
+msgid "Layout 2 ( Dark )"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:85
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:540
+msgid "Layout 3 ( Primary )"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:101
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:182
+msgid "Phone"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:117
+msgid "Email Address"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:133
+msgid "Facebook Link URL"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:149
+msgid "Twitter Link URL"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:165
+msgid "LinkedIn Link URL"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:174
+msgid "Navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:214
+msgid "Enable Transparent Navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:232
+msgid "Enable Navigation Sticky"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:254
+msgid "Layout 1 ( Logo Left )"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:255
+msgid "Layout 2 ( Logo Center )"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:256
+msgid "Layout 3 ( Logo Right )"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:264
+msgid "Subheader"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:279
+msgid "Subheader text align"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:283
+msgid "Center"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:284
+msgid "Left"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:285
+msgid "Right"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:306
+msgid "Layout 2"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:340
+msgid "Overlay Color"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:356
+msgid "Overlay Color Opacity"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:375
+msgid "Background image"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:385
+msgid "Footer Widgets"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:405
+msgid "Number footer columns to display."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:411
+msgid "Disable footer widgets"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:435
+msgid "Custom footer 1 column width"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:435
+#, php-format
+msgid "Custom footer %s columns width"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:437
+msgid ""
+"Enter int numbers and sum of them must smaller or equal 12, separated by \"+"
+"\""
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:467
+msgid "Footer Copyright"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:484
+msgid "Copyright Text"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:515
+msgid "Footer Background"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:556
+msgid "Background Image"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:566
+msgid "Footer back to top button"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:581
+msgid "Enable back to top button?"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:596
+msgid "Back to top button style"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:600
+msgid "-- Select Style --"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:601
+msgid "Square"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:602
+msgid "Rounded"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:616
+msgid "Back to top button position"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:620
+msgid "-- Select Position --"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:621
+msgid "Botoom Left"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:622
+msgid "Bottom Right"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:629
+msgid "Site Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:650
+msgid "Wide"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/customizer-theme-option.php:651
+msgid "Boxed"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:10
+msgid "Home Page: Blog"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:17
+msgid "Blog Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:32
+msgid "Blog Enable"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:47
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:47
+msgid "Section Title"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:62
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:62
+msgid "Section Subtitle"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:79
+msgid "Blog Category"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:96
+msgid "No. of blog to show"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:114
+msgid "Order by"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:118
+msgid "Default"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:119
+msgid "ID"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:120
+msgid "Author"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:121
+msgid "Title"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:122
+msgid "Date"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:123
+msgid "Comment Count"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:124
+msgid "Order by Page Order"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:125
+msgid "Random order"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:142
+msgid "Order"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:146
+msgid "Descending"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:147
+msgid "Ascending"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:186
+msgid "Column Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:190
+msgid "2 Column"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:191
+msgid "3 Column"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-blog.php:192
+msgid "4 Column"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:10
+msgid "Home Page: Contact"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:17
+msgid "Contact Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:32
+msgid "Contact Enable"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:93
+msgid "Contact Form"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:109
+msgid "Contact Form 7 Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:118
+msgid "Contact Informations"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:134
+msgid "Address Title"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:150
+msgid "Address"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:166
+msgid "Phone Title"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:198
+msgid "Email Title"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/inc/sections/section-contact.php:214
+msgid "Email"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-blog.php:74
+msgid "No Image"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-blog.php:84
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-breadcrumb.php:39
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-breadcrumb.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-breadcrumb.php:47
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-breadcrumb.php:51
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-breadcrumb.php:55
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-breadcrumb.php:59
+msgid "Error 404"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-breadcrumb.php:63
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/section-all/section-breadcrumb.php:67
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-none.php:5
+msgid "Nothing Found"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-none.php:12
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-none.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-page.php:33
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-single.php:64
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-single.php:14
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content.php:14
+msgid "Featured"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-single.php:30
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content.php:34
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-single.php:42
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content-single.php:50
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content.php:46
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content.php:54
+msgid ", "
+msgstr ""
+
+#: C:\xampp\htdocs\jewelry-store\wp-content\themes\jewelry-store/template-parts/content/post/content.php:29
+msgid "Read More <i class=\"fa fa-angle-double-right\"></i>"
+msgstr ""
