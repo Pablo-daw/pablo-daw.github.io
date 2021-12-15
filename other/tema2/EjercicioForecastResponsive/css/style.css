@@ -146,7 +146,7 @@ main {
     margin-bottom: 0.1rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media (min-width: 361px) and (max-width: 600px) {
   body {
     width: 100%;
   }
