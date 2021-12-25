@@ -6,11 +6,52 @@ body {
   width: 850px;
   background-color: #f0f0f0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+header {
+  background-color: #216a93;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+#logo .material-icons {
+  font-size: 3rem;
+  color: #E9ECF2;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  color: #E9ECF2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  font-family: "Bitter", serif;
+  color: #E9ECF2;
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+#menuMovil {
+  display: none;
 }
 
 main {
   border: 0.2px solid rgba(150, 150, 150, 0.8);
-  border-radius: 10px;
   background-color: white;
   padding: 1rem;
 }
@@ -18,6 +59,7 @@ main {
 #ciudad h2 {
   font-size: 3rem;
   font-family: "Courier New", Courier, monospace;
+  color: #141414;
 }
 
 #informacion {
@@ -41,6 +83,7 @@ main {
   font-family: "Courier New", Courier, monospace;
   font-size: 3rem;
   margin-left: 1rem;
+  color: #141414;
 }
 
 #info {
@@ -48,7 +91,8 @@ main {
 }
 
 #info p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 0.5rem;
 }
 
 #desgloseTiempo {
@@ -75,6 +119,7 @@ main {
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
+  color: #141414;
 }
 
 #farhenint p, #celsius p {
@@ -87,11 +132,45 @@ main {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1rem;
   font-weight: 100;
+  color: #141414;
 }
 
-@media only screen and (max-width: 360px) {
+footer {
+  background-color: #216a93;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+footer section p {
+  font-family: "Bitter", serif;
+  color: #E9ECF2;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 360px) {
   body {
     width: 100%;
+    padding: 0.2rem;
+  }
+
+  #logo .material-icons {
+    font-size: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 1rem;
+    margin-left: 5%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #menuMovil {
+    display: block;
+    color: #E9ECF2;
   }
 
   main {
@@ -100,6 +179,7 @@ main {
     border-radius: 0px;
     background-color: #f0f0f0;
     padding: 0.5rem;
+    margin: 0.5rem;
   }
 
   #ciudad h2 {
@@ -121,6 +201,7 @@ main {
 
   #informacion #info p {
     font-size: 0.8rem;
+    line-height: 0.3rem;
   }
 
   #desgloseTiempo {
@@ -132,8 +213,12 @@ main {
     display: flex;
     justify-content: space-between;
     border-top: 0.2px solid rgba(150, 150, 150, 0.8);
-    padding: 0.5rem;
     align-items: center;
+  }
+
+  .dias p {
+    width: 25%;
+    text-align: left;
   }
 
   .dias .convesiones {
@@ -145,10 +230,38 @@ main {
   #farhenint p {
     margin-bottom: 0.1rem;
   }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer section p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
 }
-@media (min-width: 361px) and (max-width: 600px) {
+@media (min-width: 360px) and (max-width: 600px) {
   body {
     width: 100%;
+    padding: 0.2rem;
+  }
+
+  #logo .material-icons {
+    font-size: 2rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+    margin-left: 5%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #menuMovil {
+    display: none;
   }
 
   main {
@@ -157,6 +270,7 @@ main {
     border-radius: 0px;
     background-color: #f0f0f0;
     padding: 0.5rem;
+    margin: 0.5rem;
   }
 
   #ciudad h2 {
@@ -178,6 +292,7 @@ main {
 
   #informacion #info p {
     font-size: 0.9rem;
+    line-height: 0.3rem;
   }
 
   #desgloseTiempo {
@@ -189,8 +304,12 @@ main {
     display: flex;
     justify-content: space-between;
     border-top: 0.2px solid rgba(150, 150, 150, 0.8);
-    padding: 0.5rem;
     align-items: center;
+  }
+
+  .dias p {
+    width: 25%;
+    text-align: left;
   }
 
   .dias .convesiones {
@@ -201,6 +320,10 @@ main {
 
   #farhenint p {
     margin-right: 1rem;
+  }
+
+  footer {
+    flex-direction: row;
   }
 }
 
