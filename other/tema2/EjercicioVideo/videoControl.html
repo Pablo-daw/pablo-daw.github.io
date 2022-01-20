@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Video con controles</h1>
+    </header>
+
+    <section>
+      <video id="miVideo" class="video" controls>
+        <source src="video/movie_clip2.mp4" type="video/mp4" />
+        <source src="video/movie_clip2.ogg" type="video/ogg" />
+        
+        Tu navegador no soporta el elemento <code>video</code>.
+      </video>
+    </section>
+    <section>
+      <div class="controles">
+        <button onclick="botonPlay()"><span class="material-icons">play_circle</span>Play</button>
+        <button onclick="botonPause()"><span class="material-icons">pause_circle</span>Pause</button>
+        <button onclick="botonStop()"><span class="material-icons">stop_circle</span>Stop</button>
+        <button onclick="botonRebobinar()"><span class="material-icons">fast_rewind</span>Rebobinar</button>
+      </div>
+    </section>
+    <script>
+      var miVideo = document.getElementById("miVideo");
+
+      function botonPlay() {
+        miVideo.play();
+      }
+
+      function botonPause() {
+        miVideo.pause();
+      }
+
+      function botonStop() {
+        miVideo.currentTime = 0;
+        miVideo.pause();
+      }
+
+      function botonRebobinar() {
+        miVideo.currentTime = 0;
+      }
+    </script>
+  </body>
+</html>
