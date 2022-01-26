@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="sp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de videos Responsive</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bitter"
+    />
+  </head>
+  <body>
+    <header>
+      <p id="logo"><i class="material-icons">videocam</i></p>
+      <h1>Galería de videos Responsive</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html">Galeria</a></li>
+          <li><a href="index.html">Contacto</a></li>
+        </ul>
+        <p id="menuMovil"><i class="material-icons">menu</i></p>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <video id="miVideo1" poster="img/caratula1.png">
+            <source src="media/video01.mp4" type="video/mp4" />
+            <source src="media/video01.webm" type="video/webm" />
+            <source src="media/video01.mpg" type="video/mpeg" />
+            <track
+              kind="captions"
+              src="media/video01.vtt"
+              srclang="es"
+              label="Español"
+              default
+            />
+            <track
+              kind="captions"
+              src="media/video01.vtt"
+              srclang="en"
+              label="Ingles"
+            />
+            Su navegador no el vídeo.
+          </video>
+          <div class="videoControl" poster="img/caratula.png">
+            <button onclick="botonPlay(miVideo1)">
+              <span class="material-icons">play_circle</span>
+            </button>
+            <button onclick="botonPause(miVideo1)">
+              <span class="material-icons">pause_circle</span>
+            </button>
+            <button onclick="botonStop(miVideo1)">
+              <span class="material-icons">stop_circle</span>
+            </button>
+            <button onclick="botonRebobinar(miVideo1)">
+              <span class="material-icons">fast_rewind</span>
+            </button>
+          </div>
+        </article>
+        <article>
+          <video id="miVideo2" poster="img/caratula2.png">
+            <source src="media/video02.mp4" type="video/mp4" />
+            <source src="media/video02.webm" type="video/webm" />
+            <source src="media/video02.mpg" type="video/mpeg" />
+            <track
+              kind="captions"
+              src="media/video02.vtt"
+              srclang="es"
+              label="Español"
+              default
+            />
+            <track
+              kind="captions"
+              src="media/video02.vtt"
+              srclang="en"
+              label="Ingles"
+            />
+            Su navegador no el vídeo.
+          </video>
+          <div class="videoControl" poster="img/caratula.png">
+            <button onclick="botonPlay(miVideo2)">
+              <span class="material-icons">play_circle</span>
+            </button>
+            <button onclick="botonPause(miVideo2)">
+              <span class="material-icons">pause_circle</span>
+            </button>
+            <button onclick="botonStop(miVideo2)">
+              <span class="material-icons">stop_circle</span>
+            </button>
+            <button onclick="botonRebobinar(miVideo2)">
+              <span class="material-icons">fast_rewind</span>
+            </button>
+          </div>
+        </article>
+        
+        <article>
+          <video id="miVideo3" poster="img/caratula3.png">
+            <source src="media/video03.mp4" type="video/mp4" />
+            <source src="media/video03.webm" type="video/webm" />
+            <source src="media/video03.mpg" type="video/mpeg" />
+            <track
+              kind="captions"
+              src="media/video03.vtt"
+              srclang="es"
+              label="Español"
+              default
+            />
+            <track
+              kind="captions"
+              src="media/video03.vtt"
+              srclang="en"
+              label="Ingles"
+            />
+            Su navegador no soporta este vídeo.
+          </video>
+          <div class="videoControl" poster="img/caratula.png">
+            <button onclick="botonPlay(miVideo3)">
+              <span class="material-icons">play_circle</span>
+            </button>
+            <button onclick="botonPause(miVideo3)">
+              <span class="material-icons">pause_circle</span>
+            </button>
+            <button onclick="botonStop(miVideo3)">
+              <span class="material-icons">stop_circle</span>
+            </button>
+            <button onclick="botonRebobinar(miVideo3)">
+              <span class="material-icons">fast_rewind</span>
+            </button>
+          </div>
+        </article>
+        <article>
+          <video id="miVideo4" poster="img/caratula4.png">
+            <source src="media/video04.mp4" type="video/mp4" />
+            <source src="media/video04.webm" type="video/webm" />
+            <source src="media/video04.mpg" type="video/mpeg" />
+            <track
+              kind="captions"
+              src="media/video04.vtt"
+              srclang="es"
+              label="Español"
+              default
+            />
+            <track
+              kind="captions"
+              src="media/video04.vtt"
+              srclang="en"
+              label="Ingles"
+            />
+            Su navegador no el vídeo.
+          </video>
+          <div class="videoControl" poster="img/caratula.png">
+            <button onclick="botonPlay(miVideo4)">
+              <span class="material-icons">play_circle</span>
+            </button>
+            <button onclick="botonPause(miVideo4)">
+              <span class="material-icons">pause_circle</span>
+            </button>
+            <button onclick="botonStop(miVideo4)">
+              <span class="material-icons">stop_circle</span>
+            </button>
+            <button onclick="botonRebobinar(miVideo4)">
+              <span class="material-icons">fast_rewind</span>
+            </button>
+          </div>
+        </article>
+        
+        <article>
+          <video id="miVideo5" poster="img/caratula5.png">
+            <source src="media/video05.mp4" type="video/mp4" />
+            <source src="media/video05.webm" type="video/webm" />
+            <source src="media/video05.mpg" type="video/mpeg" />
+            <track
+              kind="captions"
+              src="media/video05.vtt"
+              srclang="es"
+              label="Español"
+              default
+            />
+            <track
+              kind="captions"
+              src="media/video05.vtt"
+              srclang="en"
+              label="Ingles"
+            />
+            Su navegador no el vídeo.
+          </video>
+          <div class="videoControl" poster="img/caratula.png">
+            <button onclick="botonPlay(miVideo5)">
+              <span class="material-icons">play_circle</span>
+            </button>
+            <button onclick="botonPause(miVideo5)">
+              <span class="material-icons">pause_circle</span>
+            </button>
+            <button onclick="botonStop(miVideo5)">
+              <span class="material-icons">stop_circle</span>
+            </button>
+            <button onclick="botonRebobinar(miVideo5)">
+              <span class="material-icons">fast_rewind</span>
+            </button>
+          </div>
+        </article>
+        <article>
+          <video id="miVideo6" poster="img/caratula6.png">
+            <source src="media/video06.mp4" type="video/mp4" />
+            <source src="media/video06.webm" type="video/webm" />
+            <source src="media/video06.mpg" type="video/mpeg" />
+            <track
+              kind="captions"
+              src="media/video06.vtt"
+              srclang="es"
+              label="Español"
+              default
+            />
+            <track
+              kind="captions"
+              src="media/video06.vtt"
+              srclang="en"
+              label="Ingles"
+            />
+            Su navegador no el vídeo.
+          </video>
+          <div class="videoControl">
+            <button onclick="botonPlay(miVideo6)">
+              <span class="material-icons">play_circle</span>
+            </button>
+            <button onclick="botonPause(miVideo6)">
+              <span class="material-icons">pause_circle</span>
+            </button>
+            <button onclick="botonStop(miVideo6)">
+              <span class="material-icons">stop_circle</span>
+            </button>
+            <button onclick="botonRebobinar(miVideo6)">
+              <span class="material-icons">fast_rewind</span>
+            </button>
+          </div>
+        </article>
+      </section>
+      <section>
+        <article>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/oSmUI3m2kLk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </article>
+        <article>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Ftm2uv7-Ybw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </article>
+        <article>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hasdCkzXrhE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <p>Columna 1</p>
+      </section>
+      <section>
+        <p>Columna 2</p>
+      </section>
+      <section>
+        <p>Columna 3</p>
+      </section>
+    </footer>
+
+    <script>
+      var miVideo = document.getElementById("miVideo");
+
+      function botonPlay(elemento) {
+        elemento.play();
+      }
+
+      function botonPause(elemento) {
+        elemento.pause();
+      }
+
+      function botonStop(elemento) {
+        elemento.currentTime = 0;
+        elemento.pause();
+      }
+
+      function botonRebobinar(elemento) {
+        elemento.currentTime = 0;
+      }
+    </script>
+  </body>
+</html>

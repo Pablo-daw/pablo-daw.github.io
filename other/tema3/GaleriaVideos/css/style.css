@@ -1,0 +1,229 @@
+body {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #216a93;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+#logo .material-icons {
+  font-size: 3rem;
+  color: #E9ECF2;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  color: #E9ECF2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  font-family: "Bitter", serif;
+  color: #E9ECF2;
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+#menuMovil {
+  display: none;
+}
+
+main {
+  background-color: #a5c3d3;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.4rem;
+}
+
+article {
+  flex: 25%;
+  margin: 0.4rem;
+  margin-bottom: 1rem;
+  flex-shrink: 1;
+}
+
+video {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  border-radius: 0.5rem;
+}
+
+.videoControl {
+  display: flex;
+  justify-content: center;
+}
+
+.videoControl button {
+  margin: 0.5rem;
+  background-color: #4e86a7;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.videoControl button:hover {
+  background-color: #942f36;
+}
+
+footer {
+  background-color: #216a93;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer section p {
+  font-family: "Bitter", serif;
+  color: #E9ECF2;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  #logo .material-icons {
+    font-size: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 1rem;
+    margin-left: 5%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #menuMovil {
+    display: block;
+    color: #E9ECF2;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    flex: 100%;
+  }
+
+  article {
+    flex: 100%;
+  }
+
+  .videoControl button {
+    margin: 0.5rem;
+    background-color: #4e86a7;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer section p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  #logo .material-icons {
+    font-size: 2rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+    margin-left: 5%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #menuMovil {
+    display: none;
+  }
+
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  main section {
+    flex: 45%;
+  }
+
+  article {
+    flex: 100%;
+  }
+
+  .videoControl button {
+    margin: 0.5rem;
+    background-color: #4e86a7;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  iframe {
+    min-height: 350px;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  video {
+    min-width: 400px;
+  }
+
+  iframe {
+    min-width: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
