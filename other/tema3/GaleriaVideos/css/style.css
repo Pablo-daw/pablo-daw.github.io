@@ -75,6 +75,7 @@ iframe {
 .videoControl {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .videoControl button {
