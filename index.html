@@ -1,58 +1,91 @@
 <!DOCTYPE html>
 <html lang="sp">
-    <head>
-        <meta charset="UTF-8">
-        <title>Diseño de interfaces</title>
-    </head>
-    <body>
-        <header>
-            <img src="./img/logo.svg" alt="logo" height="100px">
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Diseño de interfaces</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bitter"
+    />
+  </head>
+  <body>
+    <hr class="barraSuperior" />
+    <div id="contenedor">
+      <header>
+        <div id="logo">
+          <a href="index.html"><img src="./img/logo.svg" alt="Logotipo" /></a>
+        </div>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Temas
-                    <ul>
-                        <li><a href="./tema_1.html">Tema 1. Planificación de interfaces gráficas</a></li>
-                        <li><a href="./tema_2.html">Tema 2. Uso de estilos</a></li>
-                        <li><a href="./tema_3.html">Tema 3. Implantación de contenido multimedia</a></li>
-                        <li><a href="./tema_4.html">Tema 4. </a></li>
-                        <li><a href="./tema_5.html">Tema 5. Diseño de Webs accesibles</a></li>
-                        <li><a href="./tema_6.html">Tema 6. Implementación de la usabilidad en la Web. Diseño amigable</a></li>
-                    </ul>
-                </li>
-            </ul>
+          <ul>
+            <li><a href="./tema_1.html">Tema 1</a></li>
+            <li><a href="./tema_2.html">Tema 2</a></li>
+            <li><a href="./tema_3.html">Tema 3</a></li>
+            <li><a href="./tema_5.html">Tema 4</a></li>
+            <li><a href="./tema_6.html">Tema 5</a></li>
+          </ul>
         </nav>
-        <hr>
+      </header>
 
-        <main>
-            <h1>Titulo</h1>
-            <img src="./img/portada.png" alt="portada">
-            <section>
-                <h3>Ver del curso</h3>
-                <article>
-                    <a href="./tema_1.html">Tema 1. Planificación de interfaces gráficas</a>
-                </article>
-                <article>
-                    <a href="./tema_2.html">Tema 2. Uso de estilos</a>
-                </article>
-                <secarticletion>
-                    <a href="./tema_3.html">Tema 3. Implantación de contenido multimedia</a>
-                </article>
-                <article>
-                    <a href="./tema_4.html">Tema 4</a>
-                </article>
-                <article>
-                    <a href="./tema_5.html">Tema 5. Diseño de Webs accesibles</a>
-                </article>
-                <article>
-                    <a href="./tema_6.html">Tema 6. Implementación de la usabilidad en la Web. Diseño amigable</a>
-                </article>
-            </section>
-        </main>
+      <main>
+        <div class="content">
+          <h1 class="centrado">Diseño de Interfaces Web</h1>
+          <img src="./img/img01.jpg" alt="portada" />
+        </div>
+        <p class="parrafo">
+          Interfaz web es el nombre que se utiliza para referirse a la
+          estructura diseñada en cualquier aplicación web y que le permite al
+          usuario acceder a los contenidos de dicha web cuando esté navegando.
+          La interfaz utiliza un conjunto de componentes visuales (imagen o
+          texto), interactivos (botones, casillas, cuadro de desplazamiento,
+          controles) y de diseño para representar la información y acciones
+          disponibles. Su principal uso consiste en proporcionar un entorno
+          visual sencillo para permitir la comunicación con el sistema operativo
+          de un ordenador o dispositivo móvil.
+        </p>
+        <h3 class="subtitulo">Desglose del curso</h3>
+        <section>
+          <article>
+            <img src="img/temaUno.svg" alt="Tema uno" />
+            <a href="./tema_1.html">Planificación de interfaces gráficas</a>
+          </article>
 
-        <footer>
-            <small>Pablo Sanz Raso | Diseño de interfaces</small>
-        </footer>
-    </body>
+          <article>
+            <img src="img/temaDos.svg" alt="Tema dos" />
+            <a href="./tema_2.html">Uso de estilos</a>
+          </article>
+
+          <article>
+            <img src="img/temaTres.svg" alt="Tema tres" />
+            <a href="./tema_3.html">Implantación de contenido multimedia</a>
+          </article>
+
+          <article>
+            <img src="img/temaCuatro.svg" alt="Tema cuatro" />
+            <a href="./tema_4.html">Diseño de Webs accesibles</a>
+          </article>
+
+          <article>
+            <img src="img/temaCinco.svg" alt="Tema cinco" />
+            <a href="./tema_5.html"
+              >Implementación de la usabilidad en la Web</a
+            >
+          </article>
+        </section>
+      </main>
+      
+    </div>
+    <hr class="barraInferior" />
+      <footer>
+        <small>Pablo Sanz Raso | Diseño de interfaces</small>
+      </footer>
+  </body>
 </html>

@@ -1,3 +1,145 @@
-body{
-    color: aqua;
-};
+body {
+  padding: 0rem;
+  margin: 0 auto;
+}
+
+#contenedor {
+  padding: 0rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: content-box;
+}
+
+.barraSuperior {
+  border: 15px solid #216a93;
+  margin: 0;
+  width: 100vw;
+}
+
+.barraInferior {
+  border: 5px solid #216a93;
+  margin-top: 25px;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#logo {
+  width: 60%;
+  align-items: initial;
+  display: flex;
+  justify-content: start;
+}
+
+#logo img {
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 40%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  text-align: end;
+  padding: 1rem;
+  font-family: "Bitter", serif;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #942f36;
+}
+
+.content {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.centrado {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+}
+
+.parrafo {
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem;
+}
+
+.subtitulo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+section article {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+
+section article img {
+  display: block;
+  width: 50%;
+  vertical-align: top;
+}
+
+section article a {
+  width: 75%;
+  text-decoration: none;
+  color: #000;
+  font-family: "Bitter", serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-family: "Bitter", serif;
+}
+
+/*# sourceMappingURL=style.css.map */
