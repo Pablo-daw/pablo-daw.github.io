@@ -15,13 +15,11 @@ body{
 .barraSuperior{
     border: 15px solid $color-primario;
     margin: 0;
-    width: 100vw;
 }
 
 .barraInferior{
     border: 5px solid $color-primario;
     margin-top: 25px;
-    width: 100vw;
 }
 
 header{
@@ -107,32 +105,48 @@ nav ul li a:hover{
     margin-bottom: 0;
 }
 
-section{
+.seccionTemas{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
 
-section article{
+.seccionTemas article{
     width: 20%;
     display: flex;
     justify-content: start;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-section article img{
-    display: block;
-    width: 50%;
-    vertical-align: top;
-}
-
-section article a{
+.seccionTemas article a{
     width: 75%;
     text-decoration: none;
-    color: #000;
+    color: $negro;
     font-family: $fuente-parrafos;
     font-weight: 500;
+    text-align: center;
+}
+
+.seccionTemas article a:hover{
+    color: $color-secundario;
+}
+
+#temas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#temas img{
+    display: block;
+    width: 100%;
+}
+
+#temas p{
+    display: block;
     text-align: center;
 }
 
@@ -141,4 +155,28 @@ footer{
     justify-content: center;
     padding: 1rem;
     font-family: $fuente-parrafos;
+}
+
+// Paginas de temas
+.volver{
+    font-family: $fuente-parrafos;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.volver a{
+    text-decoration: none;
+    color: $negro;
+    display: flex;
+    align-items: center;
+}
+
+.volver a p{
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.volver a:hover{
+    color: $color-secundario;
 }
