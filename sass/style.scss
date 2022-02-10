@@ -63,7 +63,12 @@ nav ul li a{
 
 nav ul li a:hover{
     color: $color-secundario;
+    border-bottom: 2px solid $color-secundario;
 }
+
+.activo{
+    font-weight: 700;
+    color: $color-primario;}
 
 .content{
     position: relative;

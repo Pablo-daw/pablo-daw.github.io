@@ -1,39 +1,61 @@
 <!DOCTYPE html>
-<html lang="sp">
-    <head>
-        <meta charset="UTF-8">
-        <title>Diseño de interfaces | Tema 5</title>
-    </head>
-    <body>
-        <header>
-            <a href="index.html"><img src="./img/logo.svg" alt="logo" height="100px"></a>
-        </header>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Diseño de interfaces</title>
+    <link rel="icon" href="../img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" 
+    rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet"
+    />
+  </head>
+  <body>
+    <hr class="barraSuperior" />
+    <div id="contenedor">
+      <header>
+        <div id="logo">
+          <a href="../index.html"><img src="../img/logo.svg" alt="Logotipo" /></a>
+        </div>
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>Temas
-                    <ul>
-                        <li><a href="./tema_1.html">Tema 1. Planificación de interfaces gráficas</a></li>
-                        <li><a href="./tema_2.html">Tema 2. Uso de estilos</a></li>
-                        <li><a href="./tema_3.html">Tema 3. Implantación de contenido multimedia</a></li>
-                        <li><a href="./tema_4.html">Tema 4.</a></li>
-                        <li><a href="./tema_5.html">Tema 5. Diseño de Webs accesibles</a></li>
-                        <li><a href="./tema_6.html">Tema 6. Implementación de la usabilidad en la Web. Diseño amigable</a></li>
-                    </ul>
-                </li>
-            </ul>
+          <ul>
+            <li><a href="../t1/index.html">Tema 1</a></li>
+            <li><a href="../t2/index.html">Tema 2</a></li>
+            <li><a href="../t3/index.html">Tema 3</a></li>
+            <li><a href="../t4/index.html" class="activo">Tema 4</a></li>
+            <li><a href="../t5/index.html">Tema 5</a></li>
+          </ul>
         </nav>
-        <hr>
+      </header>
 
         <main>
-            <h1>Tema 5. Diseño de Webs accesibles</h1>
-            <p>
-                <a href="javascript: history.go(-1)">Volver</a>
-            </p>
-            <img src="./img/portada.png" alt="portada">
-            <section>
+            <div class="content">
+                <h1 class="centrado">Diseño de Webs accesibles</h1>
+                <img src="../img/img01.jpg" alt="portada" />
+            </div>
+            <p class="parrafo">
+                Interfaz web es el nombre que se utiliza para referirse a la
+                estructura diseñada en cualquier aplicación web y que le permite al
+                usuario acceder a los contenidos de dicha web cuando esté navegando.
+                La interfaz utiliza un conjunto de componentes visuales (imagen o
+                texto), interactivos (botones, casillas, cuadro de desplazamiento,
+                controles) y de diseño para representar la información y acciones
+                disponibles. Su principal uso consiste en proporcionar un entorno
+                visual sencillo para permitir la comunicación con el sistema operativo
+                de un ordenador o dispositivo móvil.
+              </p>
+              <h2 class="subtitulo">Contenidos del tema 4</h2>
+            
+            <section class="contentTema">
                 <article>
                     <h3>Documentos</h3>
                     <p>
@@ -75,7 +97,12 @@
                 </article>
 
             </section>
+            <div class="volver">
+                <a href="javascript: history.go(-1)">
+                    <span class="material-icons">arrow_back</span> <p>Volver a la página anterior</p></a>
+            </div>
         </main>
+        <hr class="barraInferior" />
 
         <footer>
             <small>Pablo Sanz Raso | Diseño de interfaces</small>
