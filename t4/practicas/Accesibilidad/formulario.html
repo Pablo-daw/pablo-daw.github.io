@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="Pablo Sanz Raso"/>
+        <meta name="description" content="Página de vdieo de la Practica accesibilidad"/>
+        <title>Página video</title>
+        <link rel="icon" href="img/favicon.svg" type="image/svg+xml"/>
+        <link rel="alternate icon" href="img/favicon(16x16).png" type="image/png"/>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+    </head>
+    <body>
+        <div id="contenidoPagina" role="contenido">
+            <header id="top" role="banner">
+                <div id="logotipo" role="imagen logo">
+                    <a href="index.html">
+                        <div>
+                            <img src="./img/logoAccesibilidad.svg" alt="Logo de la empresa" class="logo" tabindex="0"/>
+                        </div>
+                    </a>
+                </div>
+
+                <nav class="navbar" role="navigation">
+                    <ul>
+                        <li><a href="formulario.html">Formulario</a></li>
+                        <li><a href="galeriaImagenes.html">Imágenes</a></li>                        
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="testeo.html">Testeo</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main role="main" id="main">
+                <div id="encabezadoPagina" role="encabezado">
+                    <h2>Formulario accesible</h2>
+                </div>
+                <div id="formulario" role="formulario">
+                    <form tabindex="0" id="contact-form" aria-label="Envía una consulta" method="post" action="index.html">
+
+                        <label tabindex="0" id="nameLabel" for="name">
+                          Nombre<sup tabindex="0" class="red" aria-label="Campo obligatorio">*</sup>
+                        </label>
+                        <input type="text" id="name" name="name" aria-labelledby="nameLabel" aria-describedby="nameDesc" autocomplete="name" required="" aria-required="true"/>
+                        <p tabindex="0" id="nameDesc"><i>p.ej. Maria López</i></p>
+
+                        <label tabindex="0" id="emailLabel" for="email">
+                          Email<sup tabindex="0" class="red" aria-label="Campo obligatorio">*</sup>
+                        </label>
+                        <input type="email" id="email" name="email" aria-labelledby="emailLabel" aria-describedby="emailDesc" autocomplete="email" autocapitalize="off" required="" aria-required="true"/>
+                        <p tabindex="0" id="emailDesc"><i>p.ej. maria@correo.com</i></p>
+
+                        <label tabindex="0" id="subjectLabel" for="subject">
+                          Asunto
+                        </label>
+                        <input type="text" id="subject" name="subject" aria-labelledby="subjectLabel"/>
+
+                        <label tabindex="0" id="queryLabel" for="query">
+                          Cuéntanos algo:<sup tabindex="0" class="red" aria-label="Campo obligatorio">*</sup>
+                        </label>
+                        <textarea id="query" name="query" aria-labelledby="queryLabel" required="" aria-required="true" rows="5"></textarea>
+                        <p class="aviso"><i>* Campos obligatorios</i></p>
+                        <input class="btn" type="submit" value="Enviar consulta"/>
+                    </form>
+                </div>
+            </main>
+            <div id="piePagina">
+                <footer>
+                  <small>Página accesibilidad Web</small>
+                  <small>Pablo Sanz Raso | DINT 2022</small>
+                </footer>
+              </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

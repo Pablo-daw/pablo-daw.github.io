@@ -1,0 +1,92 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Pablo Sanz Raso"/>
+    <meta name="description" content="Página de vdieo de la Practica accesibilidad"/>
+    <title>Página video</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml"/>
+    <link rel="alternate icon" href="img/favicon(16x16).png" type="image/png"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+</head>
+
+  <body>
+    <div id="contenidoPagina" role="contenido">
+    <header id="top" role="banner">
+      <div id="logotipo" role="imagen logo">
+        <a href="index.html">
+            <img
+              src="./img/logoAccesibilidad.svg"
+              alt="Logo de la empresa"
+              class="logo"
+              tabindex="0"
+            />
+        </a>
+      </div>
+
+      <nav class="navbar" role="navigation">
+        <ul>
+          <li><a href="formulario.html">Formulario</a></li>
+          <li><a href="galeriaImagenes.html">Imágenes</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="testeo.html">Testeo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main" id="main">
+      <div id="encabezadoPagina" role="encabezado">
+        <h2>Testeo de Accesibilidad Web</h2>
+      </div>
+      <div id="textoTest">
+        <section>
+          <article>
+            <h1 tabindex="0">Página de inicio</h1>
+            <img src="./img/index.png" alt="lighthouse de la página home" tabindex="0">
+            <p><a href="./lighthouse_home.html" target="_blank">Lighthouse de página de inicio <i class="material-icons">visibility</i></a></p>
+          </article>
+
+          <article>
+            <h1 tabindex="0">Página de formulario</h1>
+            <img src="./img/form.png" alt="lighthouse de la página home" tabindex="0">
+
+            <p><a href="./lighthouse_formulario.html" target="_blank">Lighthouse de página de formulario <i class="material-icons">visibility</i></a></p>
+          </article>
+
+          <article>
+            <h1 tabindex="0">Página de imágenes</h1>
+            <img src="./img/img.png" alt="lighthouse de la página home" tabindex="0">
+
+            <p><a href="./lighthouse_imagenes.html" target="_blank">Lighthouse de página de imágenes <i class="material-icons">visibility</i></a></p>
+            
+          </article>
+
+          <article>
+            <h1 tabindex="0">Página de videos</h1>
+            <img src="./img/video.png" alt="lighthouse de la página home" tabindex="0">
+
+            <p><a href="./lighthouse_video.html" target="_blank">Lighthouse de página de vídeo <i class="material-icons">visibility</i></a></p>
+          </article>
+
+          
+        </section>
+        </div>
+    </main>
+    <div id="piePagina">
+      <footer>
+        <small>Página accesibilidad Web</small>
+        <small>Pablo Sanz Raso | DINT 2022</small>
+      </footer>
+    </div>
+  </div>
+    
+  </body>
+</html>

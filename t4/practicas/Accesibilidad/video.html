@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Pablo Sanz Raso"/>
+    <meta name="description" content="Página de vdieo de la Practica accesibilidad"/>
+    <title>Página video</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml"/>
+    <link rel="alternate icon" href="img/favicon(16x16).png" type="image/png"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  />
+  </head>
+  <body>
+    <div id="contenidoPagina" role="contenido">
+    <header id="top" role="banner">
+      <div id="logotipo" role="imagen logo">
+        <a href="index.html">
+          <div>
+            <img
+              src="./img/logoAccesibilidad.svg"
+              alt="Logo de la empresa"
+              class="logo"
+              tabindex="0"
+            />
+          </div>
+        </a>
+      </div>
+
+      <nav class="navbar" role="navigation">
+        <ul>
+          <li><a href="formulario.html">Formulario</a></li>
+          <li><a href="galeriaImagenes.html">Imágenes</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="testeo.html">Testeo</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main role="main" id="main">
+      <div id="encabezadoPagina" role="encabezado">
+        <h2>Video con transcripción</h2>
+      </div>
+      <div id="galeria" role="galeria">
+        <section id="all">
+          <p class="videoControl">
+            <button disabled id="buttonSpanish" onclick="loadTranscript('es');">
+              Transcripción en español
+            </button>
+
+            <button disabled id="buttonEnglish" onclick="loadTranscript('en');">
+              Display English transcript
+            </button>
+
+            <button disabled id="buttonDeutsch" onclick="loadTranscript('de');">
+              Deutsch-Transkript anzeigen
+            </button>
+          </p>
+
+          <div id="videoTranscripcion">
+            <video
+              id="myVideo"
+              preload="metadata"
+              controls
+              crossorigin="anonymous"
+            >
+              <source src="http://mainline.i3s.unice.fr/mooc/elephants-dream-medium.mp4"
+               type="video/mp4" 
+               />
+               
+              <source
+                src="http://mainline.i3s.unice.fr/mooc/elephants-dream-medium.webm"
+                type="video/webm"
+              />
+              <track
+                label="English subtitles"
+                kind="subtitles"
+                srclang="en"
+                src="media/elephants-dream-subtitles-en.vtt"
+              />
+              <track
+                label="Spanish subtitles"
+                kind="subtitles"
+                srclang="es"
+                src="media/elephants-dream-subtitles-es.vtt"
+                default
+              />
+              <track
+                label="Deutsch subtitles"
+                kind="subtitles"
+                srclang="de"
+                src="media/elephants-dream-subtitles-de.vtt"
+              />
+              <track
+                label="Spanish chapters"
+                kind="chapters"
+                srclang="es"
+                src="media/elephants-dream-chapters-es.vtt"
+              />
+              <track
+                label="English chapters"
+                kind="chapters"
+                srclang="en"
+                src="media/elephants-dream-chapters-en.vtt"
+              />
+            </video>
+            <div id="transcript" tabindex="0"></div>
+          </div>
+          <div class="videoControl">
+            <button onclick="botonPlay(myVideo)">
+              <span class="material-icons">play_circle</span>
+            </button>
+            <button onclick="botonPause(myVideo)">
+              <span class="material-icons">pause_circle</span>
+            </button>
+            <button onclick="botonStop(myVideo)">
+              <span class="material-icons">stop_circle</span>
+            </button>
+            <button onclick="botonRebobinar(myVideo)">
+              <span class="material-icons">fast_rewind</span>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div id="piePagina">
+      <footer>
+        <small>Página accesibilidad Web</small>
+        <small>Pablo Sanz Raso | DINT 2022</small>
+      </footer>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
