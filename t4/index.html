@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Diseño de interfaces</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../img/favicon.png" type="image/png">
         <link rel="stylesheet" href="../css/style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +33,7 @@
                 <div id="logo">
                     <a href="../index.html"><img src="../img/logo.svg" alt="Logotipo"/></a>
                 </div>
-                <nav>
+                <nav id="menuEscritorio">
                     <ul>
                         <li><a href="../t1/index.html">Tema 1</a></li>
                         <li><a href="../t2/index.html">Tema 2</a></li>
@@ -40,70 +42,81 @@
                         <li><a href="../t5/index.html">Tema 5</a></li>
                     </ul>
                 </nav>
+                <div id="menuMovil"><i class="material-icons">menu</i></div>
+
             </header>
 
+            <div id="caminoMigas">
+                <ul class="breadcrumb">
+                    <li><a href="/index.html">Home</a></li>
+                    <li>Tema 4</li>
+                  </ul>
+            </div>
+
             <main>
-                <div class="content">
-                    <h1 class="centrado">Diseño de Webs accesibles</h1>
-                    <img src="../img/img01.jpg" alt="portada"/>
+                
+                <div id="cabeceraTema">
+                    <img src="../img/t4.png" alt="portada"/>
+                    <div>
+                        <h1 class="tituloIzq">Diseño de Webs accesibles</h1>
+                        <p class="parrafoIzq">
+                            La Web está fundamentalmente diseñada para funcionar para todas las personas, independientemente de su hardware, software, idioma, ubicación o capacidad. Cuando la Web cumple este objetivo, es accesible a personas con una amplia gama de capacidades auditivas, de movimiento, visuales y cognitivas.
+
+                            Por lo tanto, el impacto de la discapacidad cambia radicalmente en la Web porque la Web elimina las barreras a la comunicación y la interacción que muchas personas enfrentan en el mundo físico. Sin embargo, cuando los sitios web, las aplicaciones, las tecnologías o las herramientas están mal diseñados, pueden crear barreras que excluyen a las personas del uso de la Web.
+                            
+                            La accesibilidad es esencial para los desarrolladores y las organizaciones que desean crear sitios web y herramientas web de alta calidad, y no excluir a las personas del uso de sus productos y servicios.                            
+                        </p>
+                    </div>
                 </div>
-                <p class="parrafo">
-                    Interfaz web es el nombre que se utiliza para referirse a la
-                                                        estructura diseñada en cualquier aplicación web y que le permite al
-                                                        usuario acceder a los contenidos de dicha web cuando esté navegando.
-                                                        La interfaz utiliza un conjunto de componentes visuales (imagen o
-                                                        texto), interactivos (botones, casillas, cuadro de desplazamiento,
-                                                        controles) y de diseño para representar la información y acciones
-                                                        disponibles. Su principal uso consiste en proporcionar un entorno
-                                                        visual sencillo para permitir la comunicación con el sistema operativo
-                                                        de un ordenador o dispositivo móvil.
-                </p>
+
                 <h2 class="subtitulo">Contenidos del tema 4</h2>
 
                 <section class="contentTema">
                     <article>
+                        <img src="/img/info.svg" alt="Información de interés">
                         <h3>Información de interés</h3>
                         <p>
                             Accesibilidad web
                             <ul>
-                                <li><a href="https://www.w3.org/WAI/tips/developing/" target="blank">Desarrollando webs accesibles</a></li>
-                                <li><a href="./documentacion/ResumenAccesibilidad.pdf" target="blank">Accesibilidad web</a></li>
-                                <li><a href="https://www.webaccessibility.com" target="blank">Validador de webs accesibles</a></li>
-                                <li><a href="https://color.a11y.com/Contrast/" target="blank">Validador de accesibilidad de contraste de color</a></li>
+                                <li><a href="https://www.w3.org/WAI/tips/developing/" target="blank">Desarrollando webs accesibles <i class="icon">link</i></a></li>
+                                <li><a href="./documentacion/ResumenAccesibilidad.pdf" target="blank">Accesibilidad web <i class="icon">link</i></a></li>
+                                <li><a href="https://www.webaccessibility.com" target="blank">Validador de webs accesibles <i class="icon">link</i></a></li>
+                                <li><a href="https://color.a11y.com/Contrast/" target="blank">Validador de accesibilidad de contraste de color <i class="icon">link</i></a></li>
 
                             </ul>
                         </p>
                         <p>
                             Accesibilidad en videos
                             <ul>
-                                <li><a href="https://web.dev/media-accessibility/" target="blank">Crear contenido multimedia accesibles</a></li>
+                                <li><a href="https://web.dev/media-accessibility/" target="blank">Crear contenido multimedia accesibles <i class="icon">link</i></a></li>
                             </ul>
                         </p>
                         <p>
                             Transcripciones en videos
                             <ul>
-                                <li><a href="http://masf-html5.blogspot.com/2016/04/html5-player-with-clickable-transcript.html?m=1" target="blank">Añadir transcripción a un video</a></li>
+                                <li><a href="http://masf-html5.blogspot.com/2016/04/html5-player-with-clickable-transcript.html?m=1" target="blank">Añadir transcripción a un video <i class="icon">link</i></a></li>
                             </ul>
                         </p>
 
                     </article>
 
                     <article>
+                        <img src="/img/proyectos.svg" alt="Prácticas">
                         <h3>Prácticas</h3>
 
                         <p>
                             Práctica web galería de vídeos con transcripcion del último vídeo
                             <ul>
-                                <li><a href="./practicas/GaleriaVideos/GaleriaVideos/index.html" target="blank">Galeria de vídeos</a></li>
-                                <li><a href="./practicas/GaleriaVideos/lighthouseMovil.html" target="blank">Lighthouse movil</a></li>
-                                <li><a href="./practicas/GaleriaVideos/lighthouseEscritorio.html" target="blank">Lighthouse escritorio</a></li>
+                                <li><a href="./practicas/GaleriaVideos/GaleriaVideos/index.html" target="blank">Galeria de vídeos <i class="icon">link</i></a></li>
+                                <li><a href="./practicas/GaleriaVideos/lighthouseMovil.html" target="blank">Lighthouse movil <i class="icon">link</i></a></li>
+                                <li><a href="./practicas/GaleriaVideos/lighthouseEscritorio.html" target="blank">Lighthouse escritorio <i class="icon">link</i></a></li>
                             </ul>
                         </p>
 
                         <p>
                             Práctica de accesibilidad
                             <ul>
-                                <li><a href="./practicas/Accesibilidad/index.html" target="blank">Practica accesibilidad</a></li>
+                                <li><a href="./practicas/Accesibilidad/index.html" target="blank">Practica accesibilidad <i class="icon">link</i></a></li>
                             </ul>
                         </p>
 
@@ -121,6 +134,10 @@
 
             <footer>
                 <small>Pablo Sanz Raso | Diseño de interfaces</small>
+                <div id="redes">
+                  <a href="https://github.com/Pablo-daw/" target="blank"><img src="../img/github.svg" alt="github"></a>
+                  <a href="https://es.linkedin.com/in/pablo-sanz-raso" target="blank"><img src="../img/linkedin.svg" alt="linkedin"></a>
+                </div>
             </footer>
         </body>
     </body>

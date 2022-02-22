@@ -55,20 +55,20 @@
         height: 100px;
     }
 
-    nav{
+    #menuEscritorio{
         display: flex;
         justify-content: end;
         align-items: center;
         width: 40%;
     }
-    nav ul{
+    #menuEscritorio ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
         list-style: none;
     }
 
-    nav ul li a{
+    #menuEscritorio ul li a{
         text-decoration: none;
         color: #000;
         text-align: end;
@@ -77,14 +77,19 @@
         font-weight: 500;
     }
 
-    nav ul li a:hover{
+    #menuEscritorio ul li a:hover{
         color: $color-secundario;
         border-bottom: 2px solid $color-secundario;
     }
 
-    .activo{
+    #menuMovil{
+        display: none;
+    }
+
+    #menuEscritorio .activo{
         font-weight: 700;
-        color: $color-primario;}
+        color: $color-primario;
+    }
 
     .content{
         position: relative;
@@ -109,6 +114,7 @@
         text-transform: uppercase;
         margin: 1.5rem;
     }
+
     form{
         display: flex;
         justify-content: center;
@@ -145,15 +151,22 @@
         text-transform: uppercase;
     }
 
-    .subtitulo{
+    .subtituloIndex{
         font-family: $fuente-titulos;
-        display: inline;
         font-size: 1.5rem;
         font-weight: 700;
         text-align: center;
         margin-bottom: 0;
         color: $color-secundario;
-        border-bottom: 1px solid $color-secundario;
+    }
+
+    .subtitulo{
+        font-family: $fuente-titulos;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0;
+        color: $color-secundario;
     }
 
     .parrafo{
@@ -185,7 +198,7 @@
         display: flex;
         justify-content: space-between;
         margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
 
     .seccionTemas{
@@ -283,6 +296,87 @@
         margin-left: 1rem;
     }
 
+    #caminoMigas{
+        border-top: 1px solid $color-primario;
+    }
+
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        color: $color-primario;
+        font-family: $fuente-parrafos;
+        font-weight: 700;
+    }
+      
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+    }
+      
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+      
+    ul.breadcrumb li a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 400;
+    }
+      
+    ul.breadcrumb li a:hover {
+        color: $color-secundario;
+        text-decoration: none;
+        border-bottom: 2px solid $color-secundario;
+    }
+
+    .contentTema{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contentTema article{
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 45%;
+        border-left: 2px solid $color-primario;
+        font-family: $fuente-parrafos;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .contentTema article img{
+        width: 4rem;
+        height: auto;
+    }
+
+    .contentTema article h3{
+        font-family: $fuente-titulos;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    .contentTema article a{
+        text-decoration: none;
+        color: $negro;
+    }
+    .contentTema article a:hover{
+        text-decoration: none;
+        color: $color-primario;
+    }
+
+    .icon{
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        color: $color-secundario;
+    }
+
 // ███╗░░░███╗███████╗██████╗░██╗░█████╗░  ░██████╗░██╗░░░██╗███████╗██████╗░██╗███████╗░██████╗
 // ████╗░████║██╔════╝██╔══██╗██║██╔══██╗  ██╔═══██╗██║░░░██║██╔════╝██╔══██╗██║██╔════╝██╔════╝
 // ██╔████╔██║█████╗░░██║░░██║██║███████║  ██║██╗██║██║░░░██║█████╗░░██████╔╝██║█████╗░░╚█████╗░
@@ -290,3 +384,583 @@
 // ██║░╚═╝░██║███████╗██████╔╝██║██║░░██║  ░╚═██╔═╝░╚██████╔╝███████╗██║░░██║██║███████╗██████╔╝
 // ╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝╚═╝░░╚═╝  ░░░╚═╝░░░░╚═════╝░╚══════╝╚═╝░░╚═╝╚═╝╚══════╝╚═════╝░
 
+@media screen and (max-width: 400px) {
+    .barraInferior{
+        border: 5px solid $color-primario;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #logo img{
+        height: 70px;
+        margin-left: 1rem;
+    }
+
+    #menuEscritorio{
+        display: none;
+    }
+    
+    #menuMovil{
+        display: block;
+        margin-right: 1rem;
+
+    }
+
+    .content{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .centrado{
+        position: absolute;
+        width: 100%;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $blanco;
+    }
+
+    #inicio{
+        font-size: 2rem;
+        color: $blanco;
+        text-transform: uppercase;
+        margin: 1.5rem;
+    }
+
+    form{
+        display: none;
+    }
+
+    .content img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .titulo{
+        font-family: $fuente-titulos;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    .subtituloIndex{
+        font-family: $fuente-titulos;
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 0;
+        color: $color-secundario;
+    }
+
+    .subtitulo{
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .parrafo{
+        font-family: $fuente-parrafos;
+        font-weight: 400;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .tituloIzq{
+        font-family: $fuente-titulos;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0;
+        padding-left: 1rem;
+        text-transform: uppercase;
+        color: $color-secundario;
+    }
+
+    .parrafoIzq{
+        font-size: 0.9rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #cabeceraTema{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .seccionTemas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .seccionTemas article{
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .seccionTemas article a{
+        width: 75%;
+        text-decoration: none;
+        color: $negro;
+        font-family: $fuente-parrafos;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .seccionTemas article a:hover{
+        color: $color-secundario;
+    }
+
+    #temas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #temas img{
+        display: block;
+        width: 100%;
+    }
+
+    #temas p{
+        display: block;
+        text-align: center;
+    }
+
+    .volver{
+        font-family: $fuente-parrafos;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        padding-left: 1rem;
+    }
+
+    .volver a{
+        text-decoration: none;
+        color: $negro;
+        display: flex;
+        align-items: center;
+    }
+
+    .volver a p{
+        display: inline;
+        margin-left: 0.5rem;
+    }
+
+    .volver a:hover{
+        color: $color-secundario;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer #redes{
+        margin-top: 1rem;
+    }
+
+    #redes img{
+        width: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #caminoMigas{
+        border-top: 1px solid $color-primario;
+    }
+
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        color: $color-primario;
+        font-family: $fuente-parrafos;
+        font-weight: 700;
+    }
+      
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+    }
+      
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+      
+    ul.breadcrumb li a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 400;
+    }
+      
+    ul.breadcrumb li a:hover {
+        color: $color-secundario;
+        text-decoration: none;
+        border-bottom: 2px solid $color-secundario;
+    }
+
+    .contentTema{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .contentTema article{
+        padding: 0rem;
+        width: 100%;
+        border-left: 0px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .contentTema article img{
+        width: 4rem;
+        height: auto;
+    }
+
+    .contentTema article h3{
+        font-family: $fuente-titulos;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: 2px solid $color-primario;
+    }
+
+    .contentTema article a{
+        text-decoration: none;
+        color: $negro;
+    }
+    .contentTema article a:hover{
+        text-decoration: none;
+        color: $color-primario;
+    }
+
+    .icon{
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        color: $color-secundario;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+
+    .barraInferior{
+        border: 5px solid $color-primario;
+        margin-top: 25px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        align-items: center;
+    }
+
+    #logo{
+        padding-left: 1rem;
+    }
+
+    #logo img{
+        height: 80px;
+    }
+
+    #menuEscritorio{
+        display: none;
+    }
+    
+    #menuMovil{
+        display: block;
+        margin-right: 1rem;
+
+    }
+
+    .activo{
+        font-weight: 700;
+        color: $color-primario;}
+
+    .content{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .centrado{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $blanco;
+    }
+
+    #inicio{
+        font-size: 2.4rem;
+    }
+
+    form{
+        display: none;
+    }
+
+    .content img{
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo{
+        font-family: $fuente-titulos;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    .subtituloIndex{
+        font-family: $fuente-titulos;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 0;
+        color: $color-secundario;
+    }
+
+    .subtitulo{
+        font-size: 1.2rem;
+        padding-left: 1rem;
+    }
+
+    .parrafo{
+        font-family: $fuente-parrafos;
+        font-weight: 400;
+        text-align: center;
+        padding: 0.8rem;
+    }
+
+    .tituloIzq{
+        font-family: $fuente-titulos;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0;
+        padding-left: 1rem;
+        text-transform: uppercase;
+        color: $color-secundario;
+    }
+
+    .parrafoIzq{
+        font-family: $fuente-parrafos;
+        font-weight: 400;
+        text-align: left;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #cabeceraTema{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        flex-direction: column;
+    }
+
+    #cabeceraTema img{
+        width: 100%;
+        height: auto;
+    }
+
+    .seccionTemas{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .seccionesTemas{
+        font-family: $fuente-titulos;
+    }
+
+    .seccionTemas article{
+        width: 20%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .seccionTemas article a{
+        width: 75%;
+        text-decoration: none;
+        color: $negro;
+        font-family: $fuente-parrafos;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .seccionTemas article a:hover{
+        color: $color-secundario;
+    }
+
+    #temas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #temas img{
+        display: block;
+        width: 100%;
+    }
+
+    #temas p{
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .volver{
+        font-family: $fuente-parrafos;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        padding-left: 1rem;
+    }
+
+    .volver a{
+        text-decoration: none;
+        color: $negro;
+        display: flex;
+        align-items: center;
+    }
+
+    .volver a p{
+        display: inline;
+        margin-left: 0.5rem;
+    }
+
+    .volver a:hover{
+        color: $color-secundario;
+    }
+
+    footer{
+        padding: 0rem;
+        margin: 0 auto;
+        max-width: 1200px;
+        box-sizing: content-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        font-family: $fuente-parrafos;
+    }
+
+    footer #redes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #redes img{
+        width: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    #caminoMigas{
+        border-top: 1px solid $color-primario;
+    }
+
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        color: $color-primario;
+        font-family: $fuente-parrafos;
+        font-weight: 700;
+    }
+      
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+    }
+      
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+      
+    ul.breadcrumb li a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 400;
+    }
+      
+    ul.breadcrumb li a:hover {
+        color: $color-secundario;
+        text-decoration: none;
+        border-bottom: 2px solid $color-secundario;
+    }
+
+
+    .contentTema{
+        flex-direction: row;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .contentTema article{
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 45%;
+        border-left: 2px solid $color-primario;
+        font-family: $fuente-parrafos;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .contentTema article img{
+        width: 4rem;
+        height: auto;
+    }
+
+    .contentTema article h3{
+        font-family: $fuente-titulos;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    .contentTema article a{
+        text-decoration: none;
+        color: $negro;
+    }
+    .contentTema article a:hover{
+        text-decoration: none;
+        color: $color-primario;
+    }
+
+    .icon{
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        color: $color-secundario;
+    }
+}

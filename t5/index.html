@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Diseño de interfaces</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../img/favicon.png" type="image/png">
         <link rel="stylesheet" href="../css/style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +32,7 @@
                 <div id="logo">
                     <a href="../index.html"><img src="../img/logo.svg" alt="Logotipo"/></a>
                 </div>
-                <nav>
+                <nav id="menuEscritorio">
                     <ul>
                         <li><a href="../t1/index.html">Tema 1</a></li>
                         <li><a href="../t2/index.html">Tema 2</a></li>
@@ -39,42 +41,48 @@
                         <li><a href="../t5/index.html" class="activo">Tema 5</a></li>
                     </ul>
                 </nav>
+                <div id="menuMovil"><i class="material-icons">menu</i></div>
+
             </header>
 
+            <div id="caminoMigas">
+                <ul class="breadcrumb">
+                    <li><a href="/index.html">Home</a></li>
+                    <li>Tema 5</li>
+                  </ul>
+            </div>
+
             <main>
-                <div class="content">
-                    <h1 class="centrado">Implementación de la usabilidad en la Web</h1>
-                    <img src="../img/img01.jpg" alt="portada"/>
+                
+                <div id="cabeceraTema">
+                    <img src="../img/t5.png" alt="portada"/>
+                    <div>
+                        <h1 class="tituloIzq">Implementación de la usabilidad en la Web</h1>
+                        <p class="parrafoIzq">
+                            La usabilidad hace referencia a la facilidad de uso de una página web. La usabilidad web actúa como parámetro de la calidad, pues indica la facilidad con la que un programa o una página web pueden ser utilizados por los usuarios. En ella, el diseño y la apariencia están al mismo nivel que la ejecución técnica y la facilidad de uso. Optimizar una web en cuanto a usabilidad es una disciplina importante del marketing online, pues, entre otras cosas, también es un factor relevante para un correcto posicionamiento en buscadores. Por lo tanto, quien quiera tener usuarios satisfechos, que regresen a su web y se conviertan en clientes finales, tendrá que mantenerse al tanto de las últimas tendencias y reaccionar ante los avances y desarrollo de la tecnología.
+                        </p>
+                    </div>
                 </div>
-                <p class="parrafo">
-                    Interfaz web es el nombre que se utiliza para referirse a la
-                                estructura diseñada en cualquier aplicación web y que le permite al
-                                usuario acceder a los contenidos de dicha web cuando esté navegando.
-                                La interfaz utiliza un conjunto de componentes visuales (imagen o
-                                texto), interactivos (botones, casillas, cuadro de desplazamiento,
-                                controles) y de diseño para representar la información y acciones
-                                disponibles. Su principal uso consiste en proporcionar un entorno
-                                visual sencillo para permitir la comunicación con el sistema operativo
-                                de un ordenador o dispositivo móvil.
-                </p>
+
                 <h2 class="subtitulo">Contenidos del tema 5</h2>
 
                 <section class="contentTema">
                     <article>
+                        <img src="/img/info.svg" alt="Información de interés">
                         <h3>Información de interés</h3>
                         <p>
                             <ul>
-                                <li><a href="https://developer.chrome.com/docs/devtools/speed/get-started/" target="blank">Optimizar velocidad de tu sitio web</a></li>
+                                <li><a href="https://developer.chrome.com/docs/devtools/speed/get-started/" target="blank">Optimizar velocidad de tu sitio web <i class="icon">link</i></a></li>
                             </ul>
                         </p>
 
                     </article>
 
                     <article>
+                        <img src="/img/proyectos.svg" alt="Prácticas">
                         <h3>Prácticas</h3>
-
                         <p>
-                            <a href="./practicas/InformeGoogleAnalytics.pdf" target="blank">Informe de Google Analytics</a>
+                            <a href="./practicas/InformeGoogleAnalytics.pdf" target="blank">Informe de Google Analytics <i class="icon">link</i></a>
                         </p>
 
 
@@ -92,6 +100,10 @@
 
             <footer>
                 <small>Pablo Sanz Raso | Diseño de interfaces</small>
+                <div id="redes">
+                  <a href="https://github.com/Pablo-daw/" target="blank"><img src="../img/github.svg" alt="github"></a>
+                  <a href="https://es.linkedin.com/in/pablo-sanz-raso" target="blank"><img src="../img/linkedin.svg" alt="linkedin"></a>
+                </div>
             </footer>
         </body>
     </body>

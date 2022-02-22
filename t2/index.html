@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Diseño de interfaces</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../img/favicon.png" type="image/png">
         <link rel="stylesheet" href="../css/style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +32,7 @@
                 <div id="logo">
                     <a href="../index.html"><img src="../img/logo.svg" alt="Logotipo"/></a>
                 </div>
-                <nav>
+                <nav id="menuEscritorio">
                     <ul>
                         <li><a href="../t1/index.html">Tema 1</a></li>
                         <li><a href="../t2/index.html" class="activo">Tema 2</a></li>
@@ -39,60 +41,60 @@
                         <li><a href="../t5/index.html">Tema 5</a></li>
                     </ul>
                 </nav>
+                <div id="menuMovil"><i class="material-icons">menu</i></div>
+
             </header>
+
+            <div id="caminoMigas">
+                <ul class="breadcrumb">
+                    <li><a href="/index.html">Home</a></li>
+                    <li>Tema 2</li>
+                  </ul>
+            </div>
 
             <main>
                 
                 <div id="cabeceraTema">
-                    <img src="../img/cuadrada.png" alt="portada"/>
+                    <img src="../img/t2.png" alt="portada"/>
                     <div>
                         <h1 class="tituloIzq">Uso de estilos</h1>
                         <p class="parrafoIzq">
-                            Interfaz web es el nombre que se utiliza para referirse a la
-                                            estructura diseñada en cualquier aplicación web y que le permite al
-                                            usuario acceder a los contenidos de dicha web cuando esté navegando.
-                                            La interfaz utiliza un conjunto de componentes visuales (imagen o
-                                            texto), interactivos (botones, casillas, cuadro de desplazamiento,
-                                            controles) y de diseño para representar la información y acciones
-                                            disponibles. Su principal uso consiste en proporcionar un entorno
-                                            visual sencillo para permitir la comunicación con el sistema operativo
-                                            de un ordenador o dispositivo móvil.
+                            Una guía de estilo es una colección de elemento prediseñados gráficos y reglas que diseñadores o desarrolladores web deben seguir para asegurarse que partes separadas del sitio web sean consistentes y creen una experiencia cohesiva al final. En el caso de proyectos web de mayor envergadura, son varios equipos los que se encargan de la concepción y el mantenimiento de la página web. La solución a ello en tales entornos de trabajo se plantea en forma de guía de estilo.
                         </p>
                     </div>
-                    
                 </div>
                 
 
                 
                 <h2 class="subtitulo">Contenidos del tema 2</h2>
-
-
                 <section class="contentTema">
                     <article>
+                        <img src="/img/info.svg" alt="Información de interés">
                         <h3>Información de interés</h3>
                         <p>
                             Diseño responsive
                             <ul>
-                                <li><a href="./documentacion/disenoResponsive.pdf" target="blank">Diseño Responsive</a></li>
-                                <li><a href="https://web.dev/responsive-web-design-basics/" target="blank">Conceptos básicos del diseño web receptivo</a></li>
-                                <li><a href="https://desarrolloweb.com/manuales/responsive-web-design.html" target="blank">Manual de Responsive Web Design</a></li>
-                                <li><a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" target="blank">CSS Media Queries</a></li>
+                                <li><a href="./documentacion/disenoResponsive.pdf" target="blank">Diseño Responsive <i class="icon">link</i></a></li>
+                                <li><a href="https://web.dev/responsive-web-design-basics/" target="blank">Conceptos básicos del diseño web receptivo <i class="icon">link</i></a></li>
+                                <li><a href="https://desarrolloweb.com/manuales/responsive-web-design.html" target="blank">Manual de Responsive Web Design <i class="icon">link</i></a></li>
+                                <li><a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" target="blank">CSS Media Queries <i class="icon">link</i></a></li>
                             </ul>
                         </p>
                         <p>
                             Imagenes en responsive
                             <ul>
-                                <li><a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/images" target="blank">Imagenes responsive</a></li>
-                                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images" target="blank">Imagenes responsive</a></li>
-                                <li><a href="https://www.w3schools.com/css/css_rwd_images.asp" target="blank">Imagenes en responsive</a></li>
+                                <li><a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/images" target="blank">Imagenes responsive <i class="icon">link</i></a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images" target="blank">Imagenes responsive <i class="icon">link</i></a></li>
+                                <li><a href="https://www.w3schools.com/css/css_rwd_images.asp" target="blank">Imagenes en responsive <i class="icon">link</i></a></li>
                             </ul>
                         </p>
                     </article>
 
                     <article>
+                        <img src="/img/proyectos.svg" alt="Prácticas">
                         <h3>Prácticas</h3>
                         <p>
-                            <a href="./practicas/EjercicioForecastResponsive/index.html" target="blank">Prácticas web tiempo responsive</a>
+                            <a href="./practicas/EjercicioForecastResponsive/index.html" target="blank">Prácticas web tiempo responsive <i class="icon">link</i></a>
                         </p>
                     </article>
 
@@ -109,6 +111,10 @@
 
             <footer>
                 <small>Pablo Sanz Raso | Diseño de interfaces</small>
+                <div id="redes">
+                  <a href="https://github.com/Pablo-daw/" target="blank"><img src="../img/github.svg" alt="github"></a>
+                  <a href="https://es.linkedin.com/in/pablo-sanz-raso" target="blank"><img src="../img/linkedin.svg" alt="linkedin"></a>
+                </div>
             </footer>
         </body>
     </body>
