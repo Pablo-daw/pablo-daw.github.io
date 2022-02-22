@@ -79,20 +79,68 @@ nav ul li a:hover {
 .centrado {
   position: absolute;
   width: 100%;
-  top: 40%;
+  top: 32%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+#inicio {
+  font-family: "Bebas Neue", cursive;
   font-weight: 700;
   text-align: center;
-  font-size: 3rem;
-  padding: 1rem;
+  font-size: 6rem;
   color: #fff;
+  text-transform: uppercase;
+  margin: 1.5rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#buscar {
+  border-radius: 10px;
+  height: 3rem;
+  width: 35rem;
+  padding: 1rem;
+  border: 0px;
+}
+
+#botonBusqueda {
+  height: 3rem;
+  border: 0px;
+  background-color: transparent;
+}
+
+#lupa {
+  width: 3rem;
 }
 
 .content img {
   width: 100%;
   height: auto;
+}
+
+.titulo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.subtitulo {
+  font-family: "Open Sans", sans-serif;
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+  color: #942f36;
+  border-bottom: 1px solid #942f36;
 }
 
 .parrafo {
@@ -102,18 +150,39 @@ nav ul li a:hover {
   padding: 1rem;
 }
 
-.subtitulo {
+.tituloIzq {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   margin-bottom: 0;
+  padding-left: 1rem;
+  text-transform: uppercase;
+  color: #942f36;
+}
+
+.parrafoIzq {
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+#cabeceraTema {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .seccionTemas {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.seccionesTemas {
+  font-family: "Open Sans", sans-serif;
 }
 
 .seccionTemas article {
@@ -155,13 +224,6 @@ nav ul li a:hover {
   text-align: center;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  font-family: "Bitter", serif;
-}
-
 .volver {
   font-family: "Bitter", serif;
   font-weight: 500;
@@ -183,6 +245,29 @@ footer {
 
 .volver a:hover {
   color: #942f36;
+}
+
+footer {
+  padding: 0rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: "Bitter", serif;
+}
+
+footer #redes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#redes img {
+  width: 1.5rem;
+  margin-left: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
