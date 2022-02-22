@@ -301,12 +301,12 @@ ul.breadcrumb li {
 
 ul.breadcrumb li + li:before {
   padding: 8px;
-  color: black;
+  color: #000;
   content: "/ ";
 }
 
 ul.breadcrumb li a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: 400;
 }
@@ -578,12 +578,12 @@ ul.breadcrumb li a:hover {
 
   ul.breadcrumb li + li:before {
     padding: 8px;
-    color: black;
+    color: #000;
     content: "/ ";
   }
 
   ul.breadcrumb li a {
-    color: #000000;
+    color: #000;
     text-decoration: none;
     font-weight: 400;
   }
@@ -882,12 +882,12 @@ ul.breadcrumb li a:hover {
 
   ul.breadcrumb li + li:before {
     padding: 8px;
-    color: black;
+    color: #000;
     content: "/ ";
   }
 
   ul.breadcrumb li a {
-    color: #000000;
+    color: #000;
     text-decoration: none;
     font-weight: 400;
   }

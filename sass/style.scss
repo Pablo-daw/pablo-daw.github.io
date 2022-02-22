@@ -70,7 +70,7 @@
 
     #menuEscritorio ul li a{
         text-decoration: none;
-        color: #000;
+        color: $negro;
         text-align: end;
         padding: 1rem;
         font-family: $fuente-parrafos;
@@ -106,7 +106,7 @@
     }
 
     #inicio{
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fuente-alternativa;
         font-weight: 700;
         text-align: center;
         font-size: 6rem;
@@ -315,12 +315,12 @@
       
     ul.breadcrumb li+li:before {
         padding: 8px;
-        color: black;
+        color: $negro;
         content: "/\00a0";
     }
       
     ul.breadcrumb li a {
-        color: #000000;
+        color: $negro;
         text-decoration: none;
         font-weight: 400;
     }
@@ -371,7 +371,7 @@
     }
 
     .icon{
-        font-family: 'Material Icons';
+        font-family: $iconos;
         font-weight: normal;
         font-style: normal;
         color: $color-secundario;
@@ -384,7 +384,7 @@
 // ██║░╚═╝░██║███████╗██████╔╝██║██║░░██║  ░╚═██╔═╝░╚██████╔╝███████╗██║░░██║██║███████╗██████╔╝
 // ╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝╚═╝░░╚═╝  ░░░╚═╝░░░░╚═════╝░╚══════╝╚═╝░░╚═╝╚═╝╚══════╝╚═════╝░
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: $tamanio-movil) {
     .barraInferior{
         border: 5px solid $color-primario;
     }
@@ -597,12 +597,12 @@
       
     ul.breadcrumb li+li:before {
         padding: 8px;
-        color: black;
+        color: $negro;
         content: "/\00a0";
     }
       
     ul.breadcrumb li a {
-        color: #000000;
+        color: $negro;
         text-decoration: none;
         font-weight: 400;
     }
@@ -652,14 +652,14 @@
     }
 
     .icon{
-        font-family: 'Material Icons';
+        font-family: $iconos;
         font-weight: normal;
         font-style: normal;
         color: $color-secundario;
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 768px) {
+@media screen and (min-width: $tamanio-movil) and (max-width: $tamanio-tablet){
 
     .barraInferior{
         border: 5px solid $color-primario;
@@ -900,12 +900,12 @@
       
     ul.breadcrumb li+li:before {
         padding: 8px;
-        color: black;
+        color: $negro;
         content: "/\00a0";
     }
       
     ul.breadcrumb li a {
-        color: #000000;
+        color: $negro;
         text-decoration: none;
         font-weight: 400;
     }
@@ -958,7 +958,7 @@
     }
 
     .icon{
-        font-family: 'Material Icons';
+        font-family: $iconos;
         font-weight: normal;
         font-style: normal;
         color: $color-secundario;
