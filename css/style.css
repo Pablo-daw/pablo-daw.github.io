@@ -79,15 +79,20 @@ header {
   position: relative;
   display: inline-block;
   text-align: center;
+  background-image: url(/img/portada.jpg);
+  height: 25vw;
 }
 
 .centrado {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*position: absolute;
   width: 100%;
-  top: 32%;
+  top: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: $blanco;*/
 }
 
 #inicio {
