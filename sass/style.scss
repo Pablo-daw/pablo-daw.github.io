@@ -96,8 +96,10 @@
         display: inline-block;
         text-align: center;
         background-image: url(/img/portada.jpg);
-        height: 25vw;
+        background-size: cover;
+        height: 30vw;
     }
+
     .centrado{
         display: flex;
         flex-direction: column;
@@ -415,11 +417,12 @@
 
     }
 
-    .content{
+    /*.content{
         position: relative;
         display: inline-block;
         text-align: center;
     }
+
     .centrado{
         position: absolute;
         width: 100%;
@@ -427,7 +430,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         color: $blanco;
-    }
+    }*/
 
     #inicio{
         font-size: 2rem;
@@ -700,11 +703,12 @@
         font-weight: 700;
         color: $color-primario;}
 
-    .content{
+    /*.content{
         position: relative;
         display: inline-block;
         text-align: center;
     }
+
     .centrado{
         position: absolute;
         width: 100%;
@@ -712,7 +716,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         color: $blanco;
-    }
+    }*/
 
     #inicio{
         font-size: 2.4rem;
@@ -967,5 +971,50 @@
         font-weight: normal;
         font-style: normal;
         color: $color-secundario;
+    }
+}
+
+@media screen and (min-width: $tamanio-tablet) and (max-width: $tamanio-pantallaPequenia){
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    #logo{
+        padding-left: 1rem;
+    }
+
+    #logo img{
+        height: 100px;
+    }
+
+    #menuEscritorio{
+        width: 75%;
+        padding-right: 1rem;
+    }
+
+    #menuEscritorio ul li a{
+        padding: 00.5rem;
+    }
+    
+    .content{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        background-image: url(/img/portada.jpg);
+        background-size: cover;
+        height: 40vw;
+    }
+    
+    #inicio{
+        font-family: $fuente-alternativa;
+        font-weight: 700;
+        text-align: center;
+        font-size: 4.5rem;
+        color: $blanco;
+        text-transform: uppercase;
+        margin: 1.5rem;
     }
 }
