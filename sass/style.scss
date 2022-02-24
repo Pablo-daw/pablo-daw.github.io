@@ -22,12 +22,14 @@
         padding: 0rem;
         margin: 0 auto;
     }
+
     #contenedor{
         padding: 0rem;
         margin: 0 auto;
         max-width: 1200px;
         box-sizing: content-box;
     }
+
     .barraSuperior{
         border: 15px solid $color-primario;
         margin: 0;
@@ -61,6 +63,7 @@
         align-items: center;
         width: 40%;
     }
+    
     #menuEscritorio ul{
         display: flex;
         justify-content: space-between;
@@ -337,6 +340,7 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
     .contentTema article{
         padding: 1rem;
         margin-top: 1rem;
